@@ -1,17 +1,16 @@
 {
-    "name": "messagemedia/lookups",
+    "name": "messagemedia/lookups-sdk",
     "type": "library",
     "description": "The MessageMedia Lookups API provides a number of endpoints for validating the phone numbers you’re sending to by checking their validity, type and carrier records.",
     "version": "1.0.0",
-    "keywords": ["Lookups","API","SDK"],
+    "keywords": ["sms","messaging","messagemedia","nodejs","sms-api","sms-gateway","sms-client"],
     "homepage": "https://apimatic.io",
-    "license": "MIT",
+    "license": "Apache-2.0",
     "authors": [
         {
-            "name": "APIMatic SDK Generator",
-            "email": "support@apimatic.io",
-            "homepage": "https://apimatic.io",
-            "role": "API Tool"
+            "name": "MessageMedia Developers",
+            "email": "developers@messagemedia.com",
+            "homepage": "https://developers.messagemedia.com",
         }
     ],
     "require": {

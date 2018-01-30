@@ -10,7 +10,22 @@ It's easy to get started. Simply enter the API Key and secret you obtained from 
 
 ### 👀 Lookup a number
 ```php
-TODO: Add Lookup Code
+<?php
+require_once "vendor/autoload.php";
+
+$basicAuthUserName = 'YOUR_API_KEY'; // The username to use with basic authentication
+$basicAuthPassword = 'YOUR_SECRET_KEY'; // The password to use with basic authentication
+
+$client = new MessageMediaLookupsLib\MessageMediaLookupsClient($basicAuthUserName, $basicAuthPassword);
+
+$lookups = $client->getLookups();
+
+$phoneNumber = 'YOUR_MOBILE_NUMBER';
+$options = 'carrier,type';
+
+$result = $lookups->getLookupAPhoneNumber($phoneNumber, $options);
+print_r($result);
+?>
 ```
 
 ## 📕 Documentation
