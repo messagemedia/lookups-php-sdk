@@ -37,7 +37,7 @@ class LookupsController extends BaseController
         if (null === static::$instance) {
             static::$instance = new static();
         }
-        
+
         return static::$instance;
     }
 
@@ -85,7 +85,7 @@ class LookupsController extends BaseController
 
         //the base uri for api requests
         $_queryBuilder = Configuration::$BASEURI;
-        
+
         //prepare query string for API call
         $_queryBuilder = $_queryBuilder.'/v1/lookups/phone/{phone_number}';
 
@@ -104,7 +104,7 @@ class LookupsController extends BaseController
 
         //prepare headers
         $_headers = array (
-            'user-agent'    => 'messagemedia-lookups',
+            'user-agent'    => 'messagemedia-lookups-php-sdk-1.0.0',
             'Accept'        => 'application/json'
         );
 
