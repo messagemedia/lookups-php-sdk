@@ -1,4 +1,4 @@
-# MessageMedia Messages PHP SDK
+# MessageMedia Lookups PHP SDK
 The MessageMedia Lookups API provides a number of endpoints for validating the phone numbers you’re sending to by checking their validity, type and carrier records.
 
 ## ⭐️ Installing via Composer
