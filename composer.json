@@ -10,7 +10,7 @@
         {
             "name": "MessageMedia Developers",
             "email": "developers@messagemedia.com",
-            "homepage": "https://developers.messagemedia.com",
+            "homepage": "https://developers.messagemedia.com"
         }
     ],
     "require": {
