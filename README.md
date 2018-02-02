@@ -1,4 +1,6 @@
 # MessageMedia Lookups PHP SDK
+[![Build Status](https://travis-ci.org/messagemedia/lookups-php-sdk.svg?branch=master)](https://travis-ci.org/messagemedia/lookups-php-sdk)
+
 The MessageMedia Lookups API provides a number of endpoints for validating the phone numbers you’re sending to by checking their validity, type and carrier records.
 
 ## ⭐️ Installing via Composer
