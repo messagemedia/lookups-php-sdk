@@ -104,8 +104,7 @@ Each property in the response body is defined as follows:
         $this->assertNotNull($result, "Result does not exist");
 
         $this->assertEquals(
-            '{"countryCode":"AU","phoneNumber":"+61491570156","type":"MOBILE","carrier":{"name":"AU Landline Carr' .
-                'ier"}}',
+            '{"carrier":{"name":"AU Landline Carrier"},"country_code":"AU","phone_number":"+61491570156","type":"MOBILE"}',
             $this->httpResponse->getResponse()->getRawBody(),
             "Response body does not match exactly"
         );
