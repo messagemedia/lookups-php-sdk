@@ -9,7 +9,7 @@ namespace MessageMediaLookupsLib\Tests;
 
 use MessageMediaLookupsLib\APIHelper;
 use \apimatic\jsonmapper\JsonMapper;
-use MessageMediaMessagesLib\Configuration;
+use MessageMediaLookupsLib\Configuration;
 
 /**
  * Configure Test Constants
