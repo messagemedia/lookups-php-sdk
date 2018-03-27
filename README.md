@@ -5,18 +5,8 @@ The MessageMedia Lookups API provides a number of endpoints for validating the p
 
 ## ⭐️ Installing via Composer
 Now install messagemedia-lookups-sdk via composer by using the following to your composer.json file:
-```json
-{
-    "require": {
-        "messagemedia/lookups-sdk": "1.0.0"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url":  "git@github.com:messagemedia/lookups-php-sdk.git"
-        }
-    ]
-}
+```
+composer require messagemedia/lookups-sdk
 ```
 
 ## 🎬 Get Started
