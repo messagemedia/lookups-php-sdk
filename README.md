@@ -1,22 +1,13 @@
 # MessageMedia Lookups PHP SDK
 [![Build Status](https://travis-ci.org/messagemedia/lookups-php-sdk.svg?branch=master)](https://travis-ci.org/messagemedia/lookups-php-sdk)
+[![composer](https://img.shields.io/badge/composer-v1.0.0-orange.svg)](https://packagist.org/packages/messagemedia/lookups-sdk)
 
 The MessageMedia Lookups API provides a number of endpoints for validating the phone numbers you’re sending to by checking their validity, type and carrier records.
 
 ## ⭐️ Installing via Composer
 Now install messagemedia-lookups-sdk via composer by using the following to your composer.json file:
-```json
-{
-    "require": {
-        "messagemedia/lookups-sdk": "1.0.0"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url":  "git@github.com:messagemedia/lookups-php-sdk.git"
-        }
-    ]
-}
+```
+composer require messagemedia/lookups-sdk
 ```
 
 ## 🎬 Get Started
