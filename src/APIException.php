@@ -1,8 +1,6 @@
 <?php
 /*
  * MessageMediaLookups
- *
- * This file was automatically generated for MessageMedia by APIMATIC v2.0 ( https://apimatic.io ).
  */
 
 namespace MessageMediaLookupsLib;
@@ -25,7 +23,7 @@ class APIException extends Exception
      * @var Http\HttpContext
      */
     private $context;
-    
+
     /**
      * The HTTP response code from the API request
      * @param string $reason the reason for raising an exception
