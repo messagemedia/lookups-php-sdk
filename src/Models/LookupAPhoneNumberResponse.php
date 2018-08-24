@@ -42,6 +42,10 @@ class LookupAPhoneNumberResponse implements JsonSerializable
      */
     public $carrier;
 
+    public $result;
+    public $imsi;
+    public $location;
+
     /**
      * Constructor to set initial or default values of member properties
      * @param string $countryCode Initialization value for $this->countryCode
@@ -51,11 +55,14 @@ class LookupAPhoneNumberResponse implements JsonSerializable
      */
     public function __construct()
     {
-        if (4 == func_num_args()) {
-            $this->countryCode = func_get_arg(0);
-            $this->phoneNumber = func_get_arg(1);
-            $this->type        = func_get_arg(2);
-            $this->carrier     = func_get_arg(3);
+        if (7 == func_num_args()) {
+            $this->countryCode  = func_get_arg(0);
+            $this->phoneNumber  = func_get_arg(1);
+            $this->type         = func_get_arg(2);
+            $this->carrier      = func_get_arg(3);
+            $this->result       = func_get_arg(4);
+            $this->imsi         = func_get_arg(5);
+            $this->location     = func_get_arg(6);
         }
     }
 
@@ -66,10 +73,13 @@ class LookupAPhoneNumberResponse implements JsonSerializable
     public function jsonSerialize()
     {
         $json = array();
-        $json['country_code'] = $this->countryCode;
-        $json['phone_number'] = $this->phoneNumber;
-        $json['type']         = $this->type;
-        $json['carrier']      = $this->carrier;
+        $json['country_code']  = $this->countryCode;
+        $json['phone_number']  = $this->phoneNumber;
+        $json['type']          = $this->type;
+        $json['carrier']       = $this->carrier;
+        $json['result']        = $this->result;
+        $json['imsi']          = $this->imsi;
+        $json['location']      = $this->location;
 
         return $json;
     }
